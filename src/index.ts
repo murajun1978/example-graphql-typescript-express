@@ -5,7 +5,7 @@ import { resolvers } from "./resolvers";
 
 const typeDefs = gql(importSchema("src/graphql/schema.graphql"));
 
-const server = new ApolloServer({ typeDefs, resolvers });
+const server = new ApolloServer({ typeDefs, resolvers: resolvers as any });
 
 const app = express();
 server.applyMiddleware({ app });

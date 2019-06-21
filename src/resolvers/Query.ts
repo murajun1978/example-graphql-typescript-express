@@ -1,5 +1,5 @@
-import { QueryResolvers } from "../generated/graphqlgen";
+import { QueryResolvers } from "../generated/graphql-resolver-types";
 
-export const Query: QueryResolvers.Type = {
+export const Query: QueryResolvers = {
   hello: () => "Hello world!"
 };
