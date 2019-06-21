@@ -1,0 +1,28 @@
+{
+  "name": "example-graphql-typescript-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -e ts,ts-node -r dotenv/config src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "graphqlgen",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server-express": "^2.6.4",
+    "express": "^4.17.1",
+    "graphql-import": "^0.7.1"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.2.1",
+    "dotenv": "^8.0.0",
+    "graphqlgen": "^0.6.0-rc9",
+    "nodemon": "^1.19.1",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.2"
+  }
+}
