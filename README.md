@@ -21,7 +21,7 @@ Run GraphQL Server:
 $ npm start
 ```
 
-## Build to JavaScript
+## Compile for Production
 ```
 $ npm run build
 ```
