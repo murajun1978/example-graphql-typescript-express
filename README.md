@@ -31,3 +31,10 @@ Run GraphQL Server:
 ```
 $ node dist/index.js
 ```
+
+## Use graphql-middleware
+Go to [use-graphql-middleware](https://github.com/murajun1978/example-graphql-typescript-express/tree/use-graphql-middleware)
+
+```
+$ git checkout use-graphql-middleware
+```
